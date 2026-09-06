@@ -40,7 +40,7 @@ That's it. To preview without changing anything: `./bootstrap.sh --dry-run`.
 | `uv`         | `~/.config/uv/`                            | Python packaging tool                |
 | `claude-code`| `~/.claude/{settings*.json,skills/}`       | Claude Code settings + skills        |
 | `codex`      | `~/.codex/{config.toml,rules/}`            | Codex CLI config (secrets templated) |
-| `aiusage`    | `~/.local/bin/aiusage`                     | Homegrown AI usage dashboard tool    |
+| `aiusage`    | `~/.local/bin/aiusage` (symlink into `tools/aiusage/`) | Homegrown AI usage dashboard tool |
 
 Stowing is reversible: `cd ~/github/dotfiles && stow -D <package>` removes the
 symlinks.
@@ -57,6 +57,7 @@ symlinks.
 | `env/`      | `.env.example` template for secrets                            |
 | `docs/`     | Architecture, maintenance, manual post-install steps           |
 | `legacy/`   | Old NixOS / XMonad / Polybar configs, archived                 |
+| `tools/`    | Source for homegrown CLI tools, symlinked into Stow packages    |
 
 ## Common commands
 
