@@ -1,0 +1,2 @@
+prefix_rule(pattern=["python3", "-m", "http.server"], decision="allow")
+prefix_rule(pattern=["curl", "--fail", "--silent", "--show-error"], decision="allow")

@@ -1,5 +1,8 @@
+claude-desktop
 google-chrome
+openai-codex-desktop
 visual-studio-code-bin
 whisper.cpp
 yay
 yay-debug
+zcode

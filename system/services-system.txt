@@ -3,6 +3,7 @@ NetworkManager-dispatcher.service
 NetworkManager-wait-online.service
 NetworkManager.service
 sddm.service
+systemd-timesyncd.service
 tailscaled.service
 systemd-userdbd.socket
 remote-fs.target

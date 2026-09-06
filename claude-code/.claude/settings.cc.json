@@ -1,0 +1,30 @@
+{
+  "env": {
+    "SSH_AUTH_SOCK": "/run/user/1000/gnupg/S.gpg-agent.ssh"
+  },
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "sonnet",
+  "statusLine": {
+    "type": "command",
+    "command": "npx -y ccstatusline@latest",
+    "padding": 0
+  },
+  "enabledPlugins": {},
+  "effortLevel": "high",
+  "modelSettings": {
+    "claude-sonnet-5": {
+      "effortLevel": "high"
+    }
+  },
+  "ultracode": false,
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "editorMode": "vim",
+  "agentPushNotifEnabled": false,
+  "voiceEnabled": true
+}

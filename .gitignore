@@ -6,6 +6,8 @@
 # Files rendered from *.tmpl by scripts/render-templates.sh. The .tmpl is
 # tracked; the rendered file is not (it embeds machine-specific secrets).
 git/.gitconfig
+claude-code/.claude/settings.zc.json
+codex/.codex/config.toml
 
 # --- Editor / OS noise -------------------------------------------------------
 *.swp

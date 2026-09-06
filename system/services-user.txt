@@ -1,4 +1,5 @@
-openclaw-gateway.service
+hermes-gateway.service
+humanlayer-daemon.service
 pipewire-pulse.service
 pipewire.service
 wireplumber.service

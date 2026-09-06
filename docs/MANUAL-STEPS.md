@@ -7,9 +7,11 @@ state. Work through it once on a new machine.
 ## Secrets
 
 - [ ] Edit `~/.env.local` and fill in real values for every key
-      (`SUPABASE_ACCESS_TOKEN`, `GIT_USER_NAME`, `GIT_USER_EMAIL`, …).
+      (`SUPABASE_ACCESS_TOKEN`, `GIT_USER_NAME`, `GIT_USER_EMAIL`,
+      `ZAI_API_KEY`, …).
 - [ ] Run `./bootstrap.sh --only=render-templates` to regenerate
-      `~/.gitconfig` from the template.
+      `~/.gitconfig`, `~/.claude/settings.zc.json`, and
+      `~/.codex/config.toml` from their templates.
 
 ## Identity / keys (transfer over a secure channel — never via this repo)
 
@@ -35,10 +37,15 @@ state. Work through it once on a new machine.
 ## GUI app sign-ins
 
 - [ ] Google Chrome: sign in to Google account, sync.
-- [ ] VS Code: sign in to GitHub for Settings Sync (`code` then Cmd-Shift-P
-      → "Settings Sync: Turn On").
 - [ ] Notion: sign in.
 - [ ] Obsidian: open vault, sign in to Sync if used.
+
+## Not covered by this repo (reinstall manually)
+
+- [ ] CodexBar (waybar/menu-bar AI usage indicator): build/install from
+      https://github.com/steipete/CodexBar — not our project, and the
+      compiled binary is too large to version.
+- [ ] `npm i -g ccusage` — required by `aiusage` (`~/.local/bin/aiusage`).
 
 ## Bluetooth / audio sanity check
 

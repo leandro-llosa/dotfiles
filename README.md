@@ -35,6 +35,12 @@ That's it. To preview without changing anything: `./bootstrap.sh --dry-run`.
 | `fontconfig` | `~/.config/fontconfig/`                    | Font rendering rules                 |
 | `desktop`    | `~/.config/{gtk-3.0,yay,dconf,…}`          | Misc desktop / freedesktop bits      |
 | `fonts`      | `~/.local/share/fonts/`                    | Locally installed fonts              |
+| `gh`         | `~/.config/gh/config.yml`                  | GitHub CLI config (no auth token)    |
+| `htop`       | `~/.config/htop/`                          | Process viewer                       |
+| `uv`         | `~/.config/uv/`                            | Python packaging tool                |
+| `claude-code`| `~/.claude/{settings*.json,skills/}`       | Claude Code settings + skills        |
+| `codex`      | `~/.codex/{config.toml,rules/}`            | Codex CLI config (secrets templated) |
+| `aiusage`    | `~/.local/bin/aiusage`                     | Homegrown AI usage dashboard tool    |
 
 Stowing is reversible: `cd ~/github/dotfiles && stow -D <package>` removes the
 symlinks.
